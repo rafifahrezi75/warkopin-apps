@@ -43,14 +43,6 @@ Proyek ini menggunakan teknologi terkini dalam pengembangan Android:
 
 ---
 
-## 📸 Tampilan Aplikasi
-
-| Onboarding | Login | Dashboard |
-| :---: | :---: | :---: |
-| ![Onboarding](https://via.placeholder.com/200x400?text=Onboarding) | ![Login](https://via.placeholder.com/200x400?text=Login) | ![Dashboard](https://via.placeholder.com/200x400?text=Dashboard) |
-
----
-
 ## ⚙️ Persiapan Pengembangan
 
 Jika Anda ingin menjalankan atau mengembangkan proyek ini di lokal, ikuti langkah berikut:
