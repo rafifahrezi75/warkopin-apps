@@ -67,14 +67,8 @@ Jika Anda ingin menjalankan atau mengembangkan proyek ini di lokal, ikuti langka
 
 ---
 
-## 📄 Kontribusi
-
-Kontribusi selalu diterima! Jika Anda memiliki saran atau menemukan bug, silakan buka *Issue* atau kirimkan *Pull Request*.
-
----
-
 ## 👨‍💻 Developer
 
-*   **Nama Anda/Tim** - [GitHub Profile](https://github.com/rafifahrezi75)
+*   **Muhammad Rafi Fahrezi** - [GitHub Profile](https://github.com/rafifahrezi75)
 
 ---
