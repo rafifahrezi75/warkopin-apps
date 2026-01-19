@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/kategorimenu"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="8sp"
+    android:background="@drawable/card_white_menu"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:layout_width="59sp"
+        android:layout_height="59sp"
+        android:layout_marginStart="16sp"
+        android:layout_marginTop="16sp"
+        android:layout_marginBottom="16sp"
+        android:src="#333333" />
+
+    <LinearLayout
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:layout_marginStart="16sp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <View
+            android:id="@+id/view4"
+            android:layout_width="match_parent"
+            android:layout_height="16sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tvnamamenukategori"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_semibold"
+                android:text="Good Day"
+                android:textColor="#333333"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvhargamenukategori"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="16sp"
+                android:fontFamily="@font/poppins_semibold"
+                android:gravity="end"
+                android:text="Rp 20000"
+                android:textColor="@color/my_primary"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <View
+            android:id="@+id/view5"
+            android:layout_width="match_parent"
+            android:layout_height="16sp" />
+
+        <TextView
+            android:id="@+id/tvkategorimenukategori"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="16sp"
+            android:fontFamily="@font/poppins_medium"
+            android:gravity="center|start"
+            android:text="Kopi"
+            android:textColor="#9b9b9b"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+        <View
+            android:id="@+id/view6"
+            android:layout_width="match_parent"
+            android:layout_height="16sp" />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/warkopin_logo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/warkopin_logo"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.WarkopIn"
+        android:usesCleartextTraffic="true"
+        tools:targetApi="31">
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.komputerkit.warkopin.OnBoardingActivity" />
+        <activity android:name="com.komputerkit.warkopin.LoginActivity" />
+        <activity android:name="com.komputerkit.warkopin.LupaPasswordActivity" />
+        <activity android:name="com.komputerkit.warkopin.LupaPasswordOtpActivity" />
+        <activity android:name="com.komputerkit.warkopin.RegisterActivity" />
+        <activity android:name="com.komputerkit.warkopin.RegisterOtpActivity" />
+        <activity android:name="com.komputerkit.warkopin.DashboardActivity"/>
+        <activity android:name="com.komputerkit.warkopin.KategoriActivity"/>
+        <activity android:name="com.komputerkit.warkopin.CartActivity" />
+        <activity android:name="com.komputerkit.warkopin.HistoryDoneActivity" />
+        <activity android:name="com.komputerkit.warkopin.HistoryDoneDetailActivity" />
+        <activity android:name="com.komputerkit.warkopin.HistoryProsesActivity" />
+        <activity android:name="com.komputerkit.warkopin.HistoryProsesDetailActivity" />
+        <activity android:name="com.komputerkit.warkopin.ProfileActivity" />
+        <activity android:name="com.komputerkit.warkopin.MenuActivity" />
+        <activity android:name="com.komputerkit.warkopin.DetailActivity" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
