@@ -49,7 +49,7 @@ Jika Anda ingin menjalankan atau mengembangkan proyek ini di lokal, ikuti langka
 
 1.  **Clone Repository**
     ```bash
-    git clone https://github.com/username/WarkopIn.git
+    git clone https://github.com/rafifahrezi75/warkopin-apps
     ```
 2.  **Buka di Android Studio**
     *   Pilih `Open an Existing Project`.
